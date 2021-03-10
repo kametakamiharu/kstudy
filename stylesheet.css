@@ -1,0 +1,331 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-family: '游ゴシック'
+}
+
+
+
+.txtl{
+  font-size:28px;
+  font-weight:600;
+}
+
+.txtm{
+  font-size:20px;
+  font-weight:600;
+}
+
+.txtss{
+  font-size: 14px;
+}
+
+/*//////////////////////////////header////////////////////////////*/
+
+header{
+  height: 80px;
+}
+
+.header-in{
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 10;
+  top:0;
+}
+
+.header-left{
+  display: inline-block;
+  margin-left: 120px;
+}
+
+.header-logo{
+  height: 80px;
+  vertical-align: middle;
+}
+
+header .txts{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn{
+  width:318px;
+  height:44px;
+  border:1px solid #ffce00;
+  background-color: #ffce00;
+  border-radius:25px;
+  text-align:center;
+  display:inline-block;
+  margin: 15px 120px; 0 0 ;
+}
+
+header .btn{
+  float: right;
+}
+
+.btn a{
+  text-decoration:none;
+  color:white;
+  font-size:14px;
+  display:block;
+  height:100%;
+  width:100%;
+  padding-top:10px;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background-color: #ffda27;
+}
+
+/*//////////////////////////////top1/////////////////////////*/
+
+.top1{
+  background-image: url(C:/Users/miharu/Desktop/html_lesson/Korean/image/top9_image.jpg);
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  padding: 120px 0 60px 0;
+}
+
+.top1 img{
+  width:300px;
+}
+
+.top1 .txtl{
+  margin-bottom: 5px;
+}
+
+.top1 .txtm{
+  margin-top: 0;
+}
+
+
+/*/////////////////////////////blue-line/////////////////////////////*/
+
+.blue-line{
+  background-color: #235dad;
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.blue-line .txtm{
+  color: white;
+  margin: 14px;
+}
+
+.blue-line .btn{
+  width: 50%;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.blue-line a{
+  font-size: 20px;
+  padding-top: 14px;
+}
+
+/*///////////////////////////////top2///////////////////////////////*/
+
+
+.top2{
+  background-color: #F7F5D2;
+  text-align: center;
+  padding: 30px 0;
+}
+
+h1{
+  display: inline-block;
+  border-bottom: dashed 2px black;
+}
+
+.details{
+  padding: 20px 40px;
+}
+
+.top2 .txts{
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.top2-image{
+  width: 400px;
+  margin-right: 20px;
+  box-shadow: 4px 6px 8px gray;
+}
+
+
+/*////////////////////////////point///////////////////////////*/
+
+.point{
+  padding: 30px 0;
+  text-align: center;
+}
+
+.point-box1{
+  vertical-align: bottom;
+}
+
+.point-box{
+  background-color: #eeedee;
+  padding: 20px;
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+.point-box1 .point-box{
+  width: 300px;
+}
+
+.point-box2 .point-box{
+  width: 485px;
+}
+
+.point-box .txtm{
+  margin: 0;
+}
+
+.point-box .txts{
+  margin: 5px 0 0 0;
+  text-align: left;
+}
+
+
+/*////////////////////////course///////////////////////////*/
+
+.course{
+  text-align: center;
+  padding: 30px 0;
+  background-color:#eeedee;
+}
+
+.course .txtm{
+text-align: center;
+}
+
+.course-box{
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  display: inline-block;
+  margin: 20px 10px;
+  text-align: left;
+}
+
+.course-boxes{
+  margin-bottom: 10px;
+}
+
+.course .under-line1{
+  background: linear-gradient(transparent 70% , #c3e86c 50%)
+}
+
+.course .under-line2{
+  background: linear-gradient(transparent 70% , #88d2e7 50%)
+}
+
+.course .under-line3{
+  background: linear-gradient(transparent 70% , #f0b9aa 50%)
+}
+
+/*//////////////////////////plan///////////////////////////////*/
+
+.plan{
+  text-align: center;
+  padding: 30px 0;
+}
+
+table{
+  width: 70%;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+table th{
+  padding: 10px 30px;
+  background-color: #235dad;
+  color: white;
+  font-size: 22px;
+}
+
+table td{
+  padding: 30px 30px;
+  font-size: 24px;
+}
+
+
+/*///////////////////////////review//////////////////////////*/
+
+.review{
+  text-align: center;
+  padding: 30px 40px;
+  background-color: #F7F5D2;
+}
+
+.review-boxes{
+  margin: 15px;
+}
+
+.review-box{
+  background-color: white;
+  width: 400px;
+  display: inline-block;
+  padding: 20px 40px;
+  margin: 15px;
+}
+
+.review .txtss{
+  text-align: right;
+  margin-top: 5px;
+}
+
+.review .txtm{
+  margin-bottom: 0;
+}
+
+.review .txts{
+  text-align: left;
+}
+
+
+/*////////////////////////////bottom///////////////////*/
+
+.bottom{
+  padding: 30px;
+  text-align: center;
+}
+
+.bottom .txtm{
+  margin-top: 0;
+}
+
+.bottom .btn{
+  width: 50%;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.bottom a{
+  font-size: 20px;
+  padding-top: 14px;
+}
+
+/*///////////////////////////footer///////////////////////////*/
+
+footer{
+  text-align: center;
+  background-color:#eeedee;
+  padding: 100px 0 15px 0;
+}
+
+footer .txtss{
+  font-size: 10px;
+}
